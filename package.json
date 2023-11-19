@@ -1,0 +1,29 @@
+{
+  "name": "web-based-monster-collector",
+  "version": "1.0.0",
+  "description": "monster collector",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blake-Lawton/web-based-monster-collector.git"
+  },
+  "author": "Blake Lawton, Billy Townsend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blake-Lawton/web-based-monster-collector/issues"
+  },
+  "homepage": "https://github.com/Blake-Lawton/web-based-monster-collector#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
